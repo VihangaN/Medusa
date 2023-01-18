@@ -1,20 +1,21 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import { invoke } from "@tauri-apps/api/tauri";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import { invoke } from "@tauri-apps/api/tauri";
 import "./App.css";
 
 function App() {
-  const [greetMsg, setGreetMsg] = useState("");
-  const [name, setName] = useState("");
+  // const [greetMsg, setGreetMsg] = useState("");
+  // const [name, setName] = useState("");
 
-  async function greet() {
-    // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-    setGreetMsg(await invoke("greet", { name }));
-  }
+  // async function greet() {
+  //   // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
+  //   setGreetMsg(await invoke("greet", { name }));
+  // }
 
   return (
-    <div className="container">
-      <h1>Welcome to Tauri!</h1>
+    <div data-tauri-drag-region className="container">
+      <h1>Medusa Markdown</h1>
+      {/* <h1>Welcome to Tauri!</h1>
 
       <div className="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -43,7 +44,7 @@ function App() {
         </div>
       </div>
 
-      <p>{greetMsg}</p>
+      <p>{greetMsg}</p> */}
     </div>
   );
 }

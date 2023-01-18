@@ -7,15 +7,21 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "hellotauri",
+    "productName": "Medusa Md",
     "version": "0.0.0"
   },
   "tauri": {
+    "macOSPrivateApi": false,
     "allowlist": {
-      "all": false,
+      "all": true,
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "all": true,
+        "setTitle": false,
+        "startDragging": true
       }
     },
     "bundle": {
@@ -62,8 +68,12 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "hellotauri",
-        "width": 800
+        "title": "",
+        "width": 800,
+        "minWidth": 800,
+        "minHeight": 600,
+        "titleBarStyle": "Overlay",
+        "theme":"Dark"
       }
     ]
   }
