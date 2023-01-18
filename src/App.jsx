@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div data-tauri-drag-region className="container">
+      <h1>Medusa Markdown</h1>
       {/* <h1>Welcome to Tauri!</h1>
 
       <div className="row">
