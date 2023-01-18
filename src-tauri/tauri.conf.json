@@ -16,6 +16,11 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "all": true,
+        "setTitle": false,
+        "startDragging": true
       }
     },
     "bundle": {
@@ -67,6 +72,7 @@
         "minWidth": 800,
         "minHeight": 600,
         "titleBarStyle":"Overlay"
+       
         
       }
     ] 
