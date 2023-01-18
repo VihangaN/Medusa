@@ -13,8 +13,8 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <h1>Welcome to Tauri!</h1>
+    <div data-tauri-drag-region className="container">
+      {/* <h1>Welcome to Tauri!</h1>
 
       <div className="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -43,7 +43,7 @@ function App() {
         </div>
       </div>
 
-      <p>{greetMsg}</p>
+      <p>{greetMsg}</p> */}
     </div>
   );
 }

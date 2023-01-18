@@ -12,7 +12,7 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false,
+      "all": true,
       "shell": {
         "all": false,
         "open": true
@@ -62,9 +62,13 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "hellotauri",
-        "width": 800
+        "title":"",
+        "width": 800,
+        "minWidth": 800,
+        "minHeight": 600,
+        "titleBarStyle":"Overlay"
+        
       }
-    ]
+    ] 
   }
 }
