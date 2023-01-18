@@ -11,6 +11,7 @@
     "version": "0.0.0"
   },
   "tauri": {
+    "macOSPrivateApi": false,
     "allowlist": {
       "all": true,
       "shell": {
@@ -67,14 +68,13 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title":"",
+        "title": "",
         "width": 800,
         "minWidth": 800,
         "minHeight": 600,
-        "titleBarStyle":"Overlay"
-       
-        
+        "titleBarStyle": "Overlay",
+        "theme":"Dark"
       }
-    ] 
+    ]
   }
 }
