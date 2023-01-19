@@ -1,0 +1,29 @@
+.nav-base {
+  height: calc(100vh - 3rem);
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  // border: 1px solid red;
+  &.left {
+    left:0;
+    .nav-wrapper {
+      border-right: 1px solid #454545;
+    }
+  }
+  &.right {
+    right: 0;
+    .nav-wrapper {
+      border-left: 1px solid #454545;
+    }
+  }
+  .nav-wrapper {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

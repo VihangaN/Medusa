@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "Medusa Md",
+    "productName": "Medusa",
     "version": "0.0.0"
   },
   "tauri": {
