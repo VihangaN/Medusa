@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function SplitPanel() {
+export default function SplitPanel(props) {
+    const {position} = props;
   return (
-    <div>SplitPanel</div>
+    <div className={`split-pane-base ${position == 'left' ? 'left' : 'right'}`}></div>
   )
 }

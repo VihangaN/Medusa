@@ -1,0 +1,12 @@
+.split-pane-base{
+    height:calc(100vh - 3rem);
+    width: calc(100% - 5rem);
+    content: '';
+    position: fixed;
+    &.left{
+        right:0;
+    }
+    &.right{
+        left:0;
+    }
+}
